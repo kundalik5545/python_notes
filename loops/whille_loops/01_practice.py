@@ -1,8 +1,5 @@
 
-'''
-Docstring for loops.whille_loops.01_practice
-Author: Kundalik Jadhav
-
+''' 
 While Loops Practice
 '''
 
