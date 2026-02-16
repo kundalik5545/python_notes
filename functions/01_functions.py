@@ -130,4 +130,20 @@ print(func())
 '''
 LEGB Rule - Local > Enclosing > Global > Built in
 Nonlocal - This tell python ti use nearest enclosing local variable but not use global variable in any case
+default paramerter - if we do not pass any parameter then it will take default parameter value
+Return statement - it is used to return value from function and also to exit from function
 '''
+
+print("🚀 Return statement")
+def Welcome(name):
+    return f"Welcome {name}"
+
+a = Welcome("Kundalik")
+print(a)
+
+print("🚀 Default parameter value")
+def sum(a=10,b=20):
+    return a + b
+
+c = sum(35,34)
+print(c)
