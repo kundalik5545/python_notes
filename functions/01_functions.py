@@ -125,3 +125,9 @@ def func(a=[]):
 print(func())
 print(func())
 print(func())
+
+
+'''
+LEGB Rule - Local > Enclosing > Global > Built in
+Nonlocal - This tell python ti use nearest enclosing local variable but not use global variable in any case
+'''
